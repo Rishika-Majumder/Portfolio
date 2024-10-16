@@ -357,6 +357,11 @@ footer p{
         margin: 0px;
         margin-top: 10px;
     }
+
+    .profile-pic{
+        width: 150px;
+        height: 150px;
+    }
 }
 
 @media(max-width: 300px) {
