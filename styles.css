@@ -238,3 +238,155 @@ footer p{
     flex:2.5;
     text-align: right;
 }
+
+@media(max-width:1024px){
+    .intro{
+        flex-direction: column-reverse;
+    }
+
+    .profile-pic{
+        margin-bottom: 20px;
+        flex:none;
+        width: 280px;
+    }
+
+    .intro-text {
+        flex: none; 
+        padding-right: 0px;
+    }  
+    
+    .about{
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 0px;
+    }
+
+    .profile-pic-{
+        flex: none;
+        width: 250px;
+        padding: 0px;
+        margin: 0px;
+        margin-top: 10px;
+    }
+
+    .bio {
+        flex: none; 
+        padding-right: 0px;
+    }  
+
+    .education{
+        gap: 20px;
+    }
+
+    .certifications{
+        padding-right: 0px;
+    }
+
+    .project-grid {
+        display: grid; /* Ensure the grid display is set */
+        grid-template-columns: repeat(3, 1fr); /* Set to 3 equal columns */
+        gap: 20px; /* Space between the grid items */
+    }
+}
+
+@media(max-width: 770px){
+    .project-grid {
+        display: grid; /* Ensure the grid display is set */
+        grid-template-columns: repeat(2, 1fr); /* Set to 3 equal columns */
+        gap: 20px; /* Space between the grid items */
+    }
+
+    .logo {
+        font-size: 2rem;
+    }
+
+    .headings {
+        font-size: 1.2rem;
+    }
+
+    .intro h3 {
+        font-size: 2rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
+    .education h3 {
+        font-size: 1rem;
+    }
+
+    .certifications ul {
+        font-size: 1rem;
+    }
+
+    .certifications{
+        margin-left: 50px;
+    }
+
+    .education{
+        gap: 10px;
+    }
+
+    .logos{
+        flex:1;
+    }
+    
+    footer p{
+        flex:1;
+        text-align: right;
+    }
+}
+
+@media(max-width: 400px){
+    .project-grid {
+        display: grid; /* Ensure the grid display is set */
+        grid-template-columns: repeat(1, 1fr); /* Set to 3 equal columns */
+        gap: 20px; /* Space between the grid items */
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    .headings {
+        font-size: 1rem;
+    }
+
+    .intro h3 {
+        font-size: 1.5rem;
+    }
+
+    p{
+        font-size: 0.7rem;
+    }
+
+    .education h3 {
+        font-size: 0.7rem;
+    }
+
+    .certifications ul {
+        font-size: 0.7rem;
+    }
+
+    footer a {
+        margin-right: 5px;
+        font-size: 25px;
+    }
+
+    .education{
+        flex-direction: column;
+    }
+
+    .certifications{
+        margin: 0px;
+        margin-top: 10px;
+    }
+}
+
+@media(max-width: 300px) {
+    .profile-pic{
+        width:150px;
+        height: 150px;
+    }
+}
