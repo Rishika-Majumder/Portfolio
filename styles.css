@@ -30,6 +30,9 @@ header {
 .logo {
     font-size: 3rem;
     color: #000;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: italic;
 }
 
 .intro {
